@@ -9,13 +9,15 @@ int main(int argc, char *argv[])
   std::string spacing = { "   " };
   std::string inp = { "" };
   std::string ts = { "" };
+  
+  char sMark = '"';
 
   inp += argv[1];
-  for(size_t i = 0; i < inp.length(); i++)
+  for(size_t i = 0; i < inp.length() + 2; i++)
   {
     ts += " "; 
   }
   
-  std::cout << spacing << ts << spacing << tImg << spacing << argv[1] << spacing << mImg << spacing << ts << spacing << bImg;
+  std::cout << spacing << ts << spacing << tImg << spacing << sMark << argv[1] << sMark << spacing << mImg << spacing << ts << spacing << bImg;
 
 }
