@@ -1,2 +1,2 @@
-# TerminalApps
-Here is a collection of terminal based commands i created for fun whilst learning c++.
+# KittyMeow
+Inspired by cowsay, i tried to make something similar! done for fun whilst learning c++.
